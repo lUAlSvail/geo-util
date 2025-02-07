@@ -25,7 +25,7 @@ This is a command-line utility that fetches latitude, longitude, and place infor
   Madison, WI, US -> Lat: 43.0731, Lon: -89.4012
   New York, NY, US -> Lat: 40.7128, Lon: -74.0060
 
-## Alternative running with Docker
+## Alternative running with Docker(Recommended)
 
 Make sure docker is running
 
@@ -39,7 +39,7 @@ Make sure docker is running
 3. Usage
 - Run geo-util
     ```sh
-    docker run --rm geo-util geo-util.py "Madison, WI" "10001"
+    docker run --rm -it geo-util geo-util.py "Madison, WI" "10001"
 - Run tests
     ```sh
   docker run --rm geo-util -m unittest discover tests
