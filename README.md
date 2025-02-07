@@ -39,7 +39,7 @@ Make sure docker is running
 3. Usage
 - Run geo-util
     ```sh
-    docker run --rm -it geo-util geo-util.py "Madison, WI" "10001"
+    docker run --rm -it geo-util geo_util.py "Madison, WI" "10001"
 - Run tests
     ```sh
   docker run --rm geo-util -m unittest discover tests
